@@ -1,5 +1,8 @@
-Install Chinese
+# Install Chinese
 ```
 wget https://raw.githubusercontent.com/CDeer1111/linux_install_chinese/refs/heads/main/installChinese.sh
 ```
-
+# Install Docker
+```
+sudo apt install -y docker.io docker-cli docker-compose
+```
