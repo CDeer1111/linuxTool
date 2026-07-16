@@ -20,5 +20,5 @@ read -r answer
 if [[ "$answer" =~ ^[Yy]$ ]]; then
     sudo reboot
 else
-    echo "請稍後手動重新登入或重開機以啟用輸入法。"
+    echo "請稍後手動重新開機以啟用輸入法。"
 fi
