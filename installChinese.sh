@@ -13,9 +13,10 @@ im-config
 
 im-config -n fcitx5
 
-
+set +e
 echo "安裝完成。是否重新開機？ (y/N)"
 read -r answer
+set -e
 
 if [[ "$answer" =~ ^[Yy]$ ]]; then
     sudo reboot
