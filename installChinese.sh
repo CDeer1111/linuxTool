@@ -11,7 +11,7 @@ fcitx5-chewing \
 zenity \
 im-config
 
-im-config -n fcitx5 || echo "im-config 可能完全成功"
+im-config -n fcitx5 || echo "im-config 可能未完全成功"
 
 set +e
 echo "安裝完成。是否重新開機？ (y/N)"
