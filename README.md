@@ -6,7 +6,6 @@ wget https://raw.githubusercontent.com/CDeer1111/linux_install_chinese/refs/head
 ```
 sudo apt install -y docker.io docker-cli docker-compose
 
-sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 ```
